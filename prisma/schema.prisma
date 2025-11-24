@@ -24,7 +24,7 @@ model User {
     projectId    String?
     questions    Question[]
 
-    credits Int @default(15000)
+    credits Int @default(50)
 
     userToProjects     UserToProject[]
     meetings           Meeting[]
